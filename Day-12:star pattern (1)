@@ -1,5 +1,5 @@
-// Day 10 : Star Pattern (1)
-#include <stdio.h>
+
+#include<stdio.h>
 
 int main()
 
