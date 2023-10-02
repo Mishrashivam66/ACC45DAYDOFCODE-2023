@@ -1,0 +1,23 @@
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+H
+ 
+
+int main() {
+    int T;
+    cin >> T; // Input the number of test cases
+
+    for (int i = 0; i < T; i++) {
+        int N, X;
+        cin >> N >> X; // Input N and X for the current test case
+
+        int min_operations = min(X, N - X); // Determine the minimum number ofh operations
+
+        cout << min_operations << endl; // Output the result
+    }
+
+    return 0;
+}
+```
