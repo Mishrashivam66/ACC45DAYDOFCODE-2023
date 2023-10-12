@@ -1,4 +1,4 @@
-//Day 18 : Sum of two numbers using function
+//Day 24 : Sum of two numbers using function
 #include<stdio.h>
 int add (int x, int y);
 int main(){
