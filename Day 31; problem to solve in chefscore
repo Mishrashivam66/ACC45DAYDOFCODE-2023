@@ -1,0 +1,34 @@
+
+#include <stdio.h>
+
+int main() {
+    int t;
+    scanf("%d", &t);
+
+    while (t--) {
+        int n;
+        scanf("%d", &n);
+        
+        int scores[8];
+        for (int i = 0; i < 8; i++) {
+            scores[i] = -1;
+        }
+
+        for (int i = 0; i < n; i++) {
+            int problem, score;
+            scanf("%d %d", &problem, &score);
+            if (problem <= 8 && score > scores[problem - 1]) {
+                scores[problem - 1] = score;
+            }
+        }
+
+        long long total_score = 0;
+        for (int i = 0; i < 8; i++) {
+            if (scores[i] != -1) {
+                total_score += scores[i];
+            }
+        }
+
+        printf("%lld\n", total_score);
+    }
+
