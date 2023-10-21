@@ -1,4 +1,4 @@
-// Day 22 : Switch Case using Function and Pointer
+// day 34 : Switch Case using Function and Pointer
 
  #include <stdio.h>
 int add(int *, int *);
