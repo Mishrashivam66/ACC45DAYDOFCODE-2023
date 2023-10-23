@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+
+int main() {
+    int T;  // Number of test cases
+    scanf("%d", &T);
+
+    while (T--) {
+        int X, Y;  // Number of plates prepared and plates each person takes
+        scanf("%d %d", &X, &Y);
+
+        int max_neighbours = X / Y;
+        printf("%d\n", max_neighbours);
+    }
+
+    return 0;
+}
