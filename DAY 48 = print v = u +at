@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main (){
+    float u,a,t,s;
+    printf("enter the value of u and a and t ");
+    scanf("%f %f %f",&u,&a,&t);
+    s = u +(a*t);
+    printf("%f",s);
+    return 0;
+}
