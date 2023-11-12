@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main (){
+    float s, a =8 ;
+    s = a * a;
+    printf("area of square is :%f",s);
+    return 0;
+}
